@@ -387,14 +387,14 @@ nav ul li a:hover {
     display: none;
     position: relative;
     top: 9rem;
-    left: 3rem;
+    left: 5rem;
     background-color: silver;
     padding: 2rem;
-    width: 15rem;
+    width: 12rem;
   }
 
-  #menu-links li{
-    padding: .6rem;
+  #menu-links li {
+    padding: 0.6rem;
   }
 
   #about-me-details {
