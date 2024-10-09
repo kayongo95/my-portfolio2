@@ -1,0 +1,431 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "raleway", sans-serif;
+  background-color: #f5f5f5;
+  height: 100vh;
+  margin: 0.2rem;
+}
+
+nav {
+  background-color: lightgray;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  cursor: pointer;
+  scroll-behavior: smooth;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 2rem;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.logo h1 {
+  font-weight: 900;
+  color: black;
+}
+
+.menu-btn {
+  display: none;
+}
+
+.menu-btn .bx {
+  font-size: 2rem;
+}
+
+.header-container {
+  background: linear-gradient(to top, grey, silver);
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.my-intro {
+  font-weight: bold;
+}
+
+.my-intro-image img {
+  width: 15rem;
+  object-fit: contain;
+  border-radius: 0.2rem;
+  box-shadow: 2rem 2rem silver;
+  margin-right: 2rem;
+}
+
+.name {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.name span {
+  font-size: 4rem;
+  color: white;
+  font-weight: bolder;
+}
+
+.btns {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.btns button {
+  padding: 1rem 2rem;
+  border: none;
+  cursor: pointer;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.btns button:nth-child(1) {
+  background-color: white;
+  color: black;
+}
+
+.btns button:nth-child(1):hover {
+  background-color: black;
+  color: white;
+}
+
+.btns button:nth-child(2) {
+  background-color: black;
+  color: white;
+}
+
+.btns button:nth-child(2):hover {
+  background-color: white;
+  color: black;
+}
+
+#about-me {
+  text-align: center;
+  background-color: gray;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.about-me-intro h1 {
+  font-size: 5rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: darkgray;
+}
+
+.about-me-intro h2 {
+  position: relative;
+  bottom: 4rem;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+#about-me-details {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.about-me-text {
+  margin: 1rem;
+  text-align: left;
+  font-weight: 500;
+}
+
+.about-me-text p {
+  margin-bottom: 0.5rem;
+}
+
+.about-me-image img {
+  width: 20rem;
+  height: auto;
+  object-fit: contain;
+  border-radius: 0.5rem;
+  box-shadow: 2rem 1rem silver;
+}
+
+.address {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+}
+
+.address span {
+  font-size: 1.1rem;
+  color: black;
+  font-weight: bold;
+}
+
+.about-me-text-btns button {
+  padding: 1rem 2rem;
+  border: none;
+  cursor: pointer;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.about-me-text-btns button:nth-child(2) {
+  background-color: black;
+  color: white;
+}
+
+#my-mentors {
+  text-align: center;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  background-color: gray;
+}
+
+#my-mentors h1 {
+  margin-top: 2rem;
+  color: darkgrey;
+  font-size: 5rem;
+  letter-spacing: 0.2rem;
+  font-weight: 900;
+}
+
+#my-mentors h2 {
+  position: relative;
+  bottom: 4rem;
+  font-weight: 900;
+}
+
+.mentors-list {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+
+.mentor {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  margin: 1rem;
+}
+
+.mentor p {
+  position: relative;
+  bottom: 2.5rem;
+  font-weight: 800;
+  color: black;
+}
+
+.mentor .bx {
+  font-size: 5rem;
+  color: grey;
+}
+
+#my-profile {
+  text-align: center;
+  background-color: gray;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+#my-profile h1 {
+  margin-top: 2rem;
+  color: darkgrey;
+  font-size: 5rem;
+  letter-spacing: 0.2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+#my-profile h2 {
+  position: relative;
+  bottom: 4rem;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.profile-container .text {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile-container .text hr {
+  width: 2rem;
+  height: 0.3rem;
+  background-color: black;
+  margin: 1rem 0;
+}
+
+.profile-container span {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.profile-container .text p {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#contact {
+  text-align: center;
+  margin-top: 1rem;
+  background-color: gray;
+  padding: 1rem;
+  text-transform: uppercase;
+}
+
+#contact h1 {
+  margin-top: 2rem;
+  color: darkgrey;
+  font-size: 5rem;
+  letter-spacing: 0.2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+#contact h2 {
+  position: relative;
+  bottom: 4rem;
+  font-weight: 900;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.social-media a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.bxl-facebook {
+  color: #3b5998;
+}
+
+.bxl-instagram {
+  color: #c13584;
+}
+
+.bxl-twitter {
+  color: #1da1f2;
+}
+
+.bxl-linkedin {
+  color: #0077b5;
+}
+
+@media screen and (max-width: 768px) {
+  .header-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 60rem;
+    justify-content: center;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 5rem;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .menu-btn .bx {
+    font-size: 3rem;
+  }
+
+  #menu-links {
+    display: none;
+    position: relative;
+    top: 9rem;
+    left: 3rem;
+    background-color: silver;
+    padding: 2rem;
+    width: 15rem;
+  }
+
+  #menu-links li{
+    padding: .6rem;
+  }
+
+  #about-me-details {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .about-me-image img,
+  .my-intro-image img {
+    width: 20rem;
+    height: auto;
+    box-shadow: none;
+  }
+
+  .my-intro {
+    margin: 1rem;
+  }
+
+  .name {
+    display: block;
+  }
+
+  .mentors-list,
+  .profile-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 0.1rem;
+  }
+
+  .profile-container .text hr {
+    display: none;
+  }
+}

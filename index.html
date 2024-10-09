@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My portfolio</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="./index.html"><h1>KNC</h1></a>
+        </div>
+        <div class="nav-container">
+          <ul id="menu-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#about-me">About</a></li>
+            <li><a href="#my-mentors">Mentors</a></li>
+            <li><a href="#my-profile">Profile</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="menu-btn" onmouseover="toggleMenu()">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+      <div class="header-container">
+        <div class="my-intro">
+          <p>Hi there! I'm</p>
+          <div class="name">
+            <h1><span>K</span>ayongo</h1>
+            <h1><span>N</span>icholas</h1>
+            <h1><span>C</span>rystal</h1>
+          </div>
+          <h2>Front-end Developer</h2>
+          <p>
+            I'm from Uganda and I'm passionate about creating amazing websites.
+          </p>
+          <div class="btns">
+            <button>About Me</button>
+            <button>Hire Me</button>
+          </div>
+        </div>
+
+        <div class="my-intro-image">
+          <img src="./assets/knc-removebg-preview.png" alt="my photo" />
+        </div>
+      </div>
+    </header>
+    <main>
+      <div id="about-me">
+        <div class="about-me-intro">
+          <h1>About</h1>
+          <h2>who am i?</h2>
+        </div>
+
+        <div id="about-me-details">
+          <div class="about-me-text">
+            <p>
+              My name is Kayongo Nicholas Crystal. I'm a passionate front-end
+              developer from Uganda. I have a strong background in HTML, CSS,
+              and JavaScript. I love building clean, responsive, and
+              user-friendly websites.
+            </p>
+            <p>
+              I have worked on various projects, from small personal websites to
+              large corporate websites. I am always eager to learn new skills
+              and contribute to the community.
+            </p>
+            <p>
+              Outside of work, I enjoy playing soccer, cooking, and exploring
+              the beautiful landscapes of my home country.
+            </p>
+            <div class="about-me-text-2">
+              <div class="address">
+                <p><span>Name:</span> Kayongo Nicholas Crystal</p>
+                <p><span>Email:</span> knicholas.crystal@gmail.com</p>
+                <p><span>Phone:</span> +256 788 234 5678</p>
+                <p><span>Address:</span> 123 najjeera kira, Uganda</p>
+              </div>
+              <div class="about-me-text-btns">
+                <button>Download Cv</button>
+                <button>Hire me</button>
+              </div>
+            </div>
+          </div>
+          <div class="about-me-image">
+            <img src="./assets/20230408_152242_IMG_1336.jpg" alt="My Photo" />
+          </div>
+        </div>
+      </div>
+
+      <div id="my-mentors">
+        <h1>mentors</h1>
+        <h2>Special Thanks</h2>
+        <div class="mentors-list">
+          <div class="mentor">
+            <i class="bx bxl-pinterest-alt"></i>
+            <p>pinterest</p>
+          </div>
+          <div class="mentor">
+            <i class="bx bxl-github"></i>
+            <p>github</p>
+          </div>
+          <div class="mentor">
+            <i class="bx bxl-discord-alt"></i>
+            <p>Discord</p>
+          </div>
+          <div class="mentor">
+            <i class="bx bxl-wordpress"></i>
+            <p>wordpress</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="my-profile">
+        <h1>Profile</h1>
+        <h2>My</h2>
+        <div class="profile-container">
+          <div class="finished-projects">
+            <span>5</span>
+            <div class="text">
+              <hr />
+              <p>Finished Projects</p>
+            </div>
+          </div>
+          <div class="satisfied-clients">
+            <span>3</span>
+            <div class="text">
+              <hr />
+              <p>Satisfied Clients</p>
+            </div>
+          </div>
+          <div class="working-team">
+            <span>2</span>
+            <div class="text">
+              <hr />
+              <p>Working Team</p>
+            </div>
+          </div>
+          <div class="unfinished-projects">
+            <span>7</span>
+            <div class="text">
+              <hr />
+              <p>Unfinished Projects</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div id="contact">
+        <h1>Contact</h1>
+        <h2>Get In Touch</h2>
+        <div class="social-media">
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+          <a href="#"><i class="bx bxl-linkedin"></i></a>
+          <a href="#"><i class="bx bxl-medium"></i></a>
+          <a href="#"><i class="bx bxl-github"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
